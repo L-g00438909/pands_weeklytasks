@@ -8,14 +8,14 @@ y = int(input('Enter amount 2:(in cent)'))
 sum = (x + y) # /100 used previously to give a decimal value to convert from cent to euro, however this creates a floating point number that will not be as accurate. 
 
 # floor division rounds the division to the nearest whole number and removes digits after the decimal point to give an integer value. 
-#sum1 = (sum)//100
+sum1 = (sum)//100
 # modulus division gives the remainder 
-#sum2 = (sum) % 100
+sum2 = (sum) % 100
 
 
 #combining the two will give an accurate result. 
 
-print(f"The sum of these is €{sum}")
+print("The sum of these is €", sum1, sum2)
 
 
 
