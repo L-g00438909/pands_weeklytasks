@@ -13,9 +13,10 @@ sum1 = (sum)//100
 sum2 = (sum) % 100
 
 
-#combining the two will give an accurate result. 
+# combining the two will give an accurate result. 
 
-#updated to add a list to join strings together and add a decimal point between the cents and euros. reference: https://note.nkmk.me/en/python-string-concat/
+# updated to add a decimal point between the euro and cents of the amount. The integer first needs to be converted into a string. (Reference:https://note.nkmk.me/en/python-string-concat/)
+
 
 a = sum1
 b = sum2
