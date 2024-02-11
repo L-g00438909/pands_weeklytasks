@@ -15,7 +15,15 @@ sum2 = (sum) % 100
 
 #combining the two will give an accurate result. 
 
-print("The sum of these is €", sum1, sum2)
+#updated to add a list to join strings together and add a decimal point between the cents and euros. reference: https://note.nkmk.me/en/python-string-concat/
+
+a = sum1
+b = sum2
+a1 = str(a) + '.' + str(b)
+
+
+print(f"The sum of these is €{a1}")
+
 
 
 
