@@ -8,8 +8,8 @@
 accountnumber = int(input("Enter a 10 digit number:"))                   # eg:1234567890
 accountnumber2 = str(accountnumber)                                      # convert to string as account numbers can be stored as strings. 
 numberlength = len(accountnumber2)                                       # len can determine number of characters of the account number
-a = numberlength -4                                                      # subtracting 4 from the account number length to give 123456
-b = accountnumber2[a:]                                                   # slices the string to omit the first 6 characters to give 7890
+a = numberlength -4                                                      # subtracting 4 from the account number length to give 6
+b = accountnumber2[a:]                                                   # slices the string to omit the first 6 characters from the start to give 7890
 c = ("x" *a + b)                                                         # string a(123456)* x to give xxxxxx +b(7890)
                         
 
