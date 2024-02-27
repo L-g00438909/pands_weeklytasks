@@ -1,6 +1,6 @@
 # collatz.py
 # This program asks the user to input a positive integer
-# if even the value is divided by 2, if odd the value is multiplied by 3 aznd add one. 
+# if even the value is divided by 2, if odd the value is multiplied by 3 and add one. 
 # collatz program ends when the value 1 is reached
 # Author: Louise Ryan
 # Reference: https://www.sanfoundry.com/python-program-test-collatz-conjecture-given-number/
