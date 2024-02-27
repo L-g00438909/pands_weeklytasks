@@ -17,14 +17,6 @@ while numberentered == False:       # while loop to keep prompting user to enter
 
 
 
-#while len(accountnumber2) !=10:         # while loop will allow the program to keep prompting the user to enter a 10 digit number if a number != 10 is used
-     #print("Error")
-     #ccountnumber = int(input("Enter a 10 digit number:"))
-        
-
-#if len(accountnumber2) == 10:           # when 10 characters are entered the program will print xxxxxx7890
-    # print("your account number is", c)
-     
 
 
 
