@@ -24,7 +24,7 @@ numberentered = False
 while numberentered == False:  # while loop to keep prompting user if a non numerical value is entered
     accountnumber = input("Please enter an account number: ")
     if accountnumber.isdigit(): #isdigit to check if the number is a digit (Reference:https://www.w3schools.com/python/ref_string_isdigit.asp)
-        newaccountnumber = "x" * len(accountnumber) + accountnumber[-4:] # "x"*len(accountnumber) hides all input. splicing the last 4 numbers allows them to not be hidden
+        newaccountnumber = "x" * (len(accountnumber)-4) + accountnumber[-4:] # "x"*len(accountnumber)-4 hides all input and -4 removes 4 digits. splicing adds 4 unhidden digits to the end of the number
         print("Your account number is", newaccountnumber)
         numberentered = True    # while loop exited when numerical value is entered, preventing an infinite loop
     else:
