@@ -7,7 +7,7 @@
 
 import datetime                                       # module in python that provides classes for working with date and time
                                                       
-from datetime import datetime                         # from the datetime module the datetime class can provide methods such as datetime.now() to obtain current time
+from datetime import datetime                         # from the datetime module the datetime class can provide methods such as datetime.now() to obtain current date and time
 
 def isaweekday():                                     # defines a function called isaweekday(). A function is a block of code which only runs when it is called.  Reference: (https://www.w3schools.com/python/python_functions.asp)
                                                       # the current date and time  can be obtained using datetime.now(). Reference: (https://www.toppr.com/guides/python-guide/tutorials/python-date-and-time/datetime/current-datetime/how-to-get-current-date-and-time-in-python/)
