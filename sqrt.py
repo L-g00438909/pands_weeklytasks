@@ -1,6 +1,6 @@
 # sqrt.py
 # This program takes a positive floating point number as input and outputs an approximation of its square root.
-# Newton Raphson method used to approximate square root. For any number N, the square root is 0.5 * (X + N/X)
+# Newton Raphson method used to approximate square root. For any number N, the square root is 0.5 * (X + N/X) (Reference: https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/)
 # Author: Louise Ryan
 
 
