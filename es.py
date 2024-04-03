@@ -7,8 +7,8 @@
 # https://docs.python.org/3/library/sys.html#module-sys
 # http://spronck.net/pythonbook/pythonbook.pdf
 
-import sys                                           # by importing sys module you can access command line arguments in the program via sys.argv
-                                                     # sys.argv is a list that contains command-line arguments passed to a script when it is executed. 
+import sys                                           #by importing sys module you can access command line arguments in the program via sys.argv
+                                                     #sys.argv is a list that contains command-line arguments passed to a script when it is executed. 
 if len(sys.argv) != 2:                              
     print("Please enter: python es.py <filename>")   #2 entries expected(script-file containing code and filename-txt_file). 
     sys.exit(1)                                      #if len != 2, correct number of arguments were not inputted-->error message
@@ -21,11 +21,11 @@ if not filename.endswith('txt'):                     #if filename entered does n
 
 
 try:
-    with open(filename, 'r') as f:                   #script opens file from command line input and counts the number of e's in the txt file
-        content = f.read()
+    with open(filename, 'r') as f:                   #script opens file in read only mode from command line input and counts the number of e's in the txt file
+        content = f.read()                           #entire contents of file is read and stored in content variable allowing the code to manipulated.
         number_of_es = content.count('e')
         print(number_of_es)
-except FileNotFoundError:                             # if file not found-->error message
+except FileNotFoundError:                             #if file not found-->error message
     print("File not found")
     sys.exit(1)
 
