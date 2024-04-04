@@ -3,9 +3,6 @@
 # The program takes the filename from an argument on the command line. 
 # Author: Louise Ryan
 
-# https://realpython.com/python-command-line-arguments/
-# https://docs.python.org/3/library/sys.html#module-sys
-# http://spronck.net/pythonbook/pythonbook.pdf
 
 import sys                                           #by importing sys module you can access command line arguments in the program via sys.argv
                                                      #sys.argv is a list that contains command-line arguments passed to a script when it is executed. 
@@ -30,6 +27,11 @@ except FileNotFoundError:                             #if file not found-->error
     sys.exit(1)
 
 
+
+# References:
+# https://realpython.com/python-command-line-arguments/
+# https://docs.python.org/3/library/sys.html#module-sys
+# http://spronck.net/pythonbook/pythonbook.pdf
 # https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 # https://www.w3schools.com/python/ref_string_count.asp
 # https://docs.python.org/3/library/exceptions.html
