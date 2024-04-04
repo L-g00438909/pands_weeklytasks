@@ -22,7 +22,7 @@ if not filename.endswith('txt'):                     #if filename entered does n
 
 try:
     with open(filename, 'r') as f:                   #script opens file in read only mode.
-        content = f.read()                           #entire contents of file is read and stored in content variable allowing the code to manipulated. 
+        content = f.read()                           #entire contents of file is read and stored in content variable allowing the code to be manipulated. 
         number_of_es = content.count('e')            #number of e's counted in the txt file.
         print(number_of_es)
 except FileNotFoundError:                             #if file not found-->error message
