@@ -27,8 +27,6 @@ plt.savefig('plottask')
 
 
 
-
-
 # References:
 # https://s3-us-west-2.amazonaws.com/python-notes/a-whirlwind-tour-of-python-2.pdf
 # https://www.w3schools.com/python/matplotlib_intro.asp
