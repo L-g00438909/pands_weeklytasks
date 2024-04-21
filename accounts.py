@@ -18,8 +18,14 @@ while numberentered == False:       # while loop to keep prompting user to enter
          
 
 
- # Refer to accounts_extra.py for a modified version of this code that deals with account numbers of any length.
+# Refer to accounts_extra.py for a modified version of this code that deals with account numbers of any length.
              
+# assumptions:  
+# account number will be numerical
+# account number will be an integer   
+# account numbers may be of different lengths and formats depending on which bank/country
+# account number will be longer than 4 digits. last 4 digits are typically shown with the remainder hidden to protect privacy
+# may need to add another verification step such as a pin number for security
 
 # References:
 # https://www.w3schools.com/python/ref_string_isdigit.asp
