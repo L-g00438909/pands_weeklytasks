@@ -1,4 +1,7 @@
-# modifed code to deal with account numbers of any length
+# accounts_extra.py
+# This program reads in an account number and outputs the number with only the last 4 digits showing
+# Modifed code to deal with account numbers of any length. Refer to accounts.py for the original code that only deals with 10 digit account numbers.
+# Author: Louise Ryan
 
 numberentered = False # boolean value set to false. while loop will continue until a valid number is entered
 
@@ -12,12 +15,6 @@ while numberentered == False:  # while loop to keep prompting user if a non nume
         print("Error!")
 
 
-# assumptions:  
-# account number will be numerical
-# account number will be an integer   
-# account numbers may be of different lengths and formats depending on which bank/country
-# account number will be longer than 4 digits. last 4 digits are typically shown with the remainder hidden to protect privacy
-# may need to add another verification step such as a pin number for security
 
 # References:
 # https://www.w3schools.com/python/ref_string_isdigit.asp
