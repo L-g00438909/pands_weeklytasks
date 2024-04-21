@@ -26,5 +26,8 @@ a1 = str(a) + '.' + str(b)
 print(f"The sum of these is €{a1}")
 
 
-
-
+# references:
+# https://note.nkmk.me/en/python-string-concat/
+# https://realpython.com/python-modulo-operator/
+# https://www.learndatasci.com/solutions/python-double-slash-operator-floor-division/#:~:text=In%20Python%2C%20we%20can%20perform,floor()%20function.
+# https://stackoverflow.com/questions/56627393/difference-between-modulus-and-floor-division-in-numpy
