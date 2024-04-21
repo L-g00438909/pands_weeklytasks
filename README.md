@@ -1,4 +1,8 @@
-![ATU](https://mjconroy.com/wp-content/uploads/2023/04/ATU-Logo.png)
+
+<img src="https://mjconroy.com/wp-content/uploads/2023/04/ATU-Logo.png" width="200" height="100">
+
+
+
 # **Higher Diploma in Computing: Data Analytics**
 ***
 
