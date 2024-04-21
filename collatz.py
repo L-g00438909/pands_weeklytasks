@@ -21,3 +21,7 @@ print(number)
 
 # References: 
 # https://www.sanfoundry.com/python-program-test-collatz-conjecture-given-number/
+# https://www.w3schools.com/python/python_while_loops.asp
+# https://realpython.com/python-while-loop/
+# https://www.youtube.com/watch?v=094y1Z2wpJg&t=1s&ab_channel=Veritasium
+# https://en.wikipedia.org/wiki/Collatz_conjecture
