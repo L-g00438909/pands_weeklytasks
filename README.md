@@ -11,24 +11,20 @@
 ***
 
 
-**Weekly Tasks 02**
+**1. bank.py**
 ***
-Write a program called bank.py 
-
-The program should:
-
 Prompt the user and read in two money amounts (in cent)
 Add the two amounts
 Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount 
 
-**Weekly Tasks 03**
+**2. accounts.py**
 ***
 Write a python program called accounts.py that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs)
 
 Extra:
 Modify the program to deal with account numbers of any length (yes that is a vague requirement, comment your assumptions)
 
-**Weekly Tasks 04**
+**3. collatz.py**
 ***
 Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation.
 
@@ -37,7 +33,7 @@ At each step calculate the next value by taking the current value and, if it is 
 Have the program end if the current value is one.
 
 
-**Weekly Tasks 05**
+**4. weekday.py**
 ***
 Write a program that outputs whether or not today is a weekday. (The program should be called weekday.py)
 An example of running this program on a Thursday is given below.
@@ -53,7 +49,7 @@ $ python weekday.py
 
 It is the weekend, yay!
 
-**Weekly Task 06**
+**5. squareroot.py**
 ***
 
 Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
@@ -61,13 +57,13 @@ Write a program that takes a positive floating-point number as input and outputs
 create a function called <tt>sqrt</tt> that does this.
 
 
-**Weekly Task 07**
+**6. es.py**
 ***
 Write a program that reads in a text file and outputs the number of e's it contains. 
 
 The program should take the filename from an argument on the command line. 
 
-**Weekly Task 08**
+**7. plottask.py**
 ***
 
 Write a program called plottask.py that displays:
