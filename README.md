@@ -36,7 +36,7 @@ Have the program end if the current value is one.
 **4. weekday.py**
 
 Write a program that outputs whether or not today is a weekday. 
-An example of running this program on a Thursday is given below.
+
 
 ***
 **5. squareroot.py**
