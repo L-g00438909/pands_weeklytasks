@@ -13,7 +13,7 @@
 
 **1. bank.py**
 
-Prompt the user and read in two money amounts (in cent)
+<tt>Prompt the user and read in two money amounts (in cent)
 Add the two amounts
 Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount 
 ***
@@ -22,7 +22,7 @@ Print out the answer in a human readable format with a euro sign and decimal poi
 Write a python program called accounts.py that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs)
 
 Extra:
-Modify the program to deal with account numbers of any length (yes that is a vague requirement, comment your assumptions)
+Modify the program to deal with account numbers of any length. comment assumptions.
 ***
 **3. collatz.py**
 
@@ -35,19 +35,9 @@ Have the program end if the current value is one.
 
 **4. weekday.py**
 
-Write a program that outputs whether or not today is a weekday. (The program should be called weekday.py)
+Write a program that outputs whether or not today is a weekday. 
 An example of running this program on a Thursday is given below.
 
-$ python weekday.py
-
-Yes, unfortunately today is a weekday.
-
-
-An example of running it on a Saturday is as follows:
-
-$ python weekday.py
-
-It is the weekend, yay!
 ***
 **5. squareroot.py**
 
@@ -70,5 +60,5 @@ Write a program called plottask.py that displays:
 
 a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2, 
 and a plot of the function  h(x)=x3 in the range 0 to 10, 
-on the one set of axes.
+on the one set of axes. </tt>
 ***
