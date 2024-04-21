@@ -2,8 +2,7 @@
 # This program outputs whether or not today is a weekday
 # Author: Louise Ryan
 
-# https://docs.python.org/3/library/datetime.html#format-codes
-# https://www.programiz.com/python-programming/datetime
+
 
 import datetime                                       # module in python that provides classes for working with date and time
                                                       
@@ -21,4 +20,9 @@ if isaweekday():                                      # the function is called i
 else:
     print("It is the weekend, yay!")
 
+References:
+# https://docs.python.org/3/library/datetime.html#format-codes
+# https://www.programiz.com/python-programming/datetime
+# https://www.w3schools.com/python/python_datetime.asp
+# https://www.w3schools.com/python/python_functions.asp
 
