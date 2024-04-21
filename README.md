@@ -19,7 +19,7 @@ Print out the answer in a human readable format with a euro sign and decimal poi
 ***
 **2. accounts.py**
 
-Write a python program called accounts.py that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs).  comment assumptions.
+Write a python program called accounts.py that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs).  Comment assumptions.
 
 Extra:
 Modify the program to deal with account numbers of any length.
