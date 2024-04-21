@@ -20,7 +20,7 @@ if isaweekday():                                      # the function is called i
 else:
     print("It is the weekend, yay!")
 
-References:
+# References:
 # https://docs.python.org/3/library/datetime.html#format-codes
 # https://www.programiz.com/python-programming/datetime
 # https://www.w3schools.com/python/python_datetime.asp
