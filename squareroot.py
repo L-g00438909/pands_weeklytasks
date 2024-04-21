@@ -32,5 +32,10 @@ while True:
 
 # References:
 # https://www.w3schools.com/python/python_functions.asp
+# https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
+# https://www.tutorialspoint.com/python/python_functions.htm
+
+
+
 
 
