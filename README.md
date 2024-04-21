@@ -3,11 +3,11 @@
 
 
 
-# **Higher Diploma in Computing: Data Analytics**
+# **Higher Diploma in Science: Computing-Data Analytics**
 ***
 
 ### **Module: Programming and Scripting**
-### *Author: Louise Ryan*
+### 
 ***
 
 
