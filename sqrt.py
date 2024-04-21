@@ -30,7 +30,7 @@ while True:
           print("Try again!")
 
 
-References:
-https://www.w3schools.com/python/python_functions.asp
+# References:
+# https://www.w3schools.com/python/python_functions.asp
 
 
