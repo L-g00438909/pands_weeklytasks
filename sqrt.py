@@ -5,7 +5,7 @@
 
 
 def sqrt(number):    # defines a function called sqrt with the parameter number to calculate the square root of the entered value. 
-                     # A function is a block of code that only runs when it is called. 
+                     # A [function](https://www.w3schools.com/python/python_functions.asp) is a block of code that only runs when it is called. 
     
      
     guess = number / 2.0   # Initial guess for the square root
