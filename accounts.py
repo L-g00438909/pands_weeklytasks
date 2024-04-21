@@ -29,4 +29,10 @@ while numberentered == False:       # while loop to keep prompting user to enter
 
 # References:
 # https://www.w3schools.com/python/ref_string_isdigit.asp
+# https://www.w3schools.com/python/python_conditions.asp
+# https://www.w3schools.com/python/ref_func_len.asp
+# https://www.w3schools.com/python/python_strings_slicing.asp
+# https://www.w3schools.com/python/python_while_loops.asp
+
+
 
