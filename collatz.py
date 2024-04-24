@@ -6,7 +6,14 @@
 
 
 
-number = int(input("Please enter a positive integer:"))
+number = input("Please enter a positive integer:")  
+
+
+while not number.isdigit() or int(number) <= 0:  # while not loop to continue executing the  error code as long as the user input is not a positive integer or a digit. 
+    print("Error: Please enter a positive integer.")  # error message if input is not a positive integer.
+    number = input("Please enter a positive integer:")  # reenter user input after the error message.
+
+number = int(number)                        # convert input to integer
 
 while number != 1:                          # while loop as long as number is not equal to 1
     print(number,end=' ')                   # end='' gives space between values instead of a new line
@@ -18,8 +25,11 @@ print(number)
 
 
 
+25
 
 # References: 
+# https://www.w3schools.com/python/ref_string_isdigit.asp
+# https://realpython.com/python-do-while/
 # https://www.sanfoundry.com/python-program-test-collatz-conjecture-given-number/
 # https://www.w3schools.com/python/python_while_loops.asp
 # https://realpython.com/python-while-loop/
